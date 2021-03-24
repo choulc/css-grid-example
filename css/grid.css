@@ -1,0 +1,80 @@
+.out-container{
+    max-width: 728px;
+    min-height: 384px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    grid-template-columns: 15px 55px 200px 26px 40px 245px 15px;
+    grid-template-rows: 60px repeat(2, 30px) 25px repeat(2, 1fr) 50px;
+    gap: 5px;
+    grid-template-areas: ". . .           . .            .            ."
+                         ". . cloudAcound . hanlinAcount hanlinAcount ."
+                         ". . acountText  . hanlinText   hanlinText   ."
+                         ". . acountText  . hanlinForm   hanlinForm   ."
+                         ". . cloudLogin  . hanlinForm   hanlinForm   ."
+                         ". . .           . hanlinForm   hanlinForm   ."
+                         ". . .           . hanlinForm   hanlinForm   ."
+                         ". . .           . hanlinForm   hanlinForm   ."
+                         ". . .           . .            .            ."
+}
+
+.cloudAcound{
+    grid-area: cloudAcound;
+    /* width: 100px; */
+}
+
+.acountText{
+    grid-area: acountText;
+    width: 100%;
+}
+
+.cloudLogin{
+    grid-area: cloudLogin;
+}
+
+.hanlinAcount{
+    grid-area: hanlinAcount;
+}
+
+.hanlinText{
+    grid-area: hanlinText;
+}
+
+.hanlinForm{
+    grid-area: hanlinForm;
+}
+
+
+/* @media (min-width:576px){
+    .out-container{
+        max-width:540px;
+    }
+}
+
+@media (min-width:768px){
+    .out-container{
+        max-width:720px;
+    }
+}
+
+@media (min-width:992px){
+    .out-container{
+        max-width:960px;
+    }
+}
+
+@media (min-width:1200px){
+.out-container{
+    max-width:1140px;
+}
+} */
+
+
+
+
+
